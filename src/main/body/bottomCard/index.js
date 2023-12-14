@@ -4,9 +4,12 @@ import './styles.css'
 
 const BottomCard = () => {
 
-    const Card = ({header, text }) => (
+    const Card = ({logo, header, text }) => (
         <div className="bottom-card-container">
+         <div className="logo-header-container">
+          <span role="img" aria-label="Logo" className="logo">{logo}</span>
           <div className="bottom-header">{header}</div>
+        </div>
           <div className="bottom-text">
             {text}
           </div>

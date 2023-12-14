@@ -20,7 +20,7 @@
 
   .bottom-header {
     font-family: Mona Sans;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 27px;
     letter-spacing: 0px;
@@ -77,6 +77,15 @@
     border-radius: 15px;
     text-align: center;
     display: inline-block; 
+}
+
+.logo-header-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 10px; 
 }
   
   
