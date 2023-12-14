@@ -1,0 +1,82 @@
+.bottom-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 44px;
+}
+
+.bottom-card-container {
+    border: 1px solid #ddd;
+    padding: 24px 24px 0px 24px;
+    margin-bottom: 44px;
+    width: 264px;
+    height: 174px;
+    box-shadow: 0 5 10px rgba(0, 0, 0, 0.1); 
+    background-color:#ffffff;
+    border-radius: 10px;
+    text-align: left;
+    display: inline-block; 
+  }
+
+  .bottom-header {
+    font-family: Mona Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  
+  .bottom-text {
+    font-family: Mona Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 12px;
+  }
+
+  .bottom-card-container:hover {
+    background-color:#f8f0db; 
+  }
+
+  .bottom-analytics {
+    display: flex;
+    flex-direction: column;
+    background-color: #eff0f3;
+    padding: 44px;
+}
+
+.analytics-header {
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.analytic-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 44px;
+    padding: 0px 44px 0px 44px ;
+}
+
+.analytic-card {
+    border: 1px solid #ddd;
+    padding: 0px 14px 24px 14px;
+    width: 194px;
+    height: 94px;
+    box-shadow: 0 5 10px rgba(0, 0, 0, 0.1); 
+    background-color:#ffffff;
+    border-radius: 15px;
+    text-align: center;
+    display: inline-block; 
+}
+  
+  
