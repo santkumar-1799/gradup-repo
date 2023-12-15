@@ -1,0 +1,131 @@
+.bottom-card-container2 {
+    width: 552px;
+    height: 272px;
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    background-color: #FFFFFF; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 48px;
+  }
+
+  .bottom-card-container2:hover {
+    background-color: #f6f3ae;
+  }
+
+  .bottom-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 44px;
+}
+  
+  .logo-image {
+    width: 196px;
+    height: 292px;
+    border-radius: 8px;
+    object-fit: cover; 
+  }
+
+  .logo-text {
+    display: flex;
+  }
+  
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    width: 60%;
+    margin-left: 44px;
+  }
+  
+  .text-header {
+    font-family: Sora;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #1C4980;
+    margin-bottom: 16px;
+  }
+  
+  .text-body {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    width: fit-content;
+    color: #333;
+  }
+  
+  .bottom-details {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 70%;
+  }
+  
+  .comment,
+  .view,
+  .time {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+  
+  .logo {
+    margin-right: 8px;
+    font-size: 14px;
+  }
+
+  .read-more {
+    margin-top: 20px;
+    display: flex;
+    font-size: 12px;
+    align-items: flex-start;
+    color: #1C4980;
+  }
+  
+  
+  .bottom-analytics {
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    margin-top: 16px;
+  }
+  
+  .analytics-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .analytic-card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .analytic-card {
+    flex: 1;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-right: 12px;
+  }
+  
+  @media (max-width: 768px) {
+    .bottom-card-container2,
+    .analytic-card {
+      margin-right: 0;
+      margin-bottom: 12px;
+    }
+  }
+  

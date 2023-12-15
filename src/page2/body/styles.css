@@ -1,0 +1,38 @@
+.main_container {
+    padding: 0px 24px 0px 24px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .advert-div {
+   background-color: black;
+  }
+
+  .top-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+  }
+
+.main-heading {
+  font-family: Sora;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: 0em;
+  width: 60%;
+  text-align: left;
+  color: #FFFFFF;
+
+}
+  .side-heading {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    width: 30%;
+    text-align: left;
+    color: #FFFFFF;
+  }

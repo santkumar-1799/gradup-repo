@@ -5,9 +5,9 @@ const TopCard = () => {
 
     return (
     <div className="card_container">
-        <div className="logo-header1">GradUp Hiring</div>
+        <div className="logo-header2">GradUp Hackathons</div>
             <div className="text">
-            Seamlessly hire next-gen innovative talent for your business growth
+            Next-gen hackathons | Next-gen Innovative workforce | Accelerated Business Growth
             </div>
             <button className="explore_button" href="#">
                     Explore More
